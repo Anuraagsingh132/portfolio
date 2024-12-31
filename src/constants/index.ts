@@ -203,9 +203,9 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "streamverse",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-basedplatform designed for movie enthusiasts, offering an extensive collection, detailed information, and a seamless viewing experience in high quality.",
     tags: [
       {
         name: "react",
