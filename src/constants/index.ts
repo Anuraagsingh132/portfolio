@@ -220,7 +220,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: streamverse,
+    image: carrent,
     sourceCodeLink: "https://github.com/",
   },
   {
