@@ -27,10 +27,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+
+
+
+  threejs, khushiinfra, streamverse,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -121,58 +121,59 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
+    title: "Frontend Developer",
+    companyName: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building and optimizing user interfaces with React.js for seamless user experiences.",
+      "Collaborating with UI/UX designers to implement visually appealing and functional web applications.",
+      "Ensuring accessibility and responsiveness across multiple devices and screen sizes.",
+      "Reviewing pull requests and maintaining clean, scalable code.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "Mobile App Developer",
+    companyName: "",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2023 - Sep 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing high-performance mobile applications using React Native.",
+      "Integrating APIs and third-party services for seamless functionality.",
+      "Testing and debugging applications to improve performance and user engagement.",
+      "Working closely with product managers to implement new features and improvements.",
     ],
   },
   {
     title: "Web Developer",
-    companyName: "Shopify",
+    companyName: "",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2023 - Dec 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Creating and maintaining web applications with modern JavaScript frameworks.",
+      "Optimizing website performance for speed and scalability.",
+      "Ensuring security best practices in web applications.",
+      "Implementing backend services and database management for full-stack solutions.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
+    title: "Full Stack Developer",
+    companyName: "",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing end-to-end web applications with frontend and backend technologies.",
+      "Building scalable server-side logic using Node.js and databases like MongoDB.",
+      "Leading development teams and mentoring junior developers.",
+      "Enhancing system architecture for better efficiency and maintainability.",
     ],
   },
 ];
+
 
 const testimonials: TTestimonial[] = [
   {
@@ -220,13 +221,13 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: streamverse,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Khushi Infra Webpage",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web-based platform for Khushi Infrastructure Private Limited, showcasing their projects, services, and expertise with a modern design, seamless navigation, and optimized performance.",
     tags: [
       {
         name: "react",
@@ -241,10 +242,10 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: khushiinfra,
     sourceCodeLink: "https://github.com/",
   },
-  {
+  /*{
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -264,7 +265,7 @@ const projects: TProject[] = [
     ],
     image: tripguide,
     sourceCodeLink: "https://github.com/",
-  },
+  },*/
 ];
 
 export { services, technologies, experiences, testimonials, projects };
