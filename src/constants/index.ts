@@ -30,7 +30,7 @@ import {
 
 
 
-  threejs, khushiinfra, streamverse,
+  threejs, khushiinfra, streamverse,mother,argumentor,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
