@@ -224,6 +224,8 @@ const projects: TProject[] = [
     ],
     image: streamverse,
     sourceCodeLink: "https://github.com/Anuraagsingh132/streamverse",
+    website: "https://streamverse.biz/home",
+
   },
   {
     name: "Khushi Infra",
@@ -245,6 +247,7 @@ const projects: TProject[] = [
     ],
     image: khushiinfra,
     sourceCodeLink: "https://github.com/Anuraagsingh132/khushi-infra",
+    website: "https://khushi-infra.vercel.app/",
   },
   {
     name: "ArguMentor App",
@@ -265,7 +268,8 @@ const projects: TProject[] = [
       },
     ],
     image: argumentor,
-    sourceCodeLink: "https://github.com/Anuraagsingh132/portfolio",
+    sourceCodeLink: "https://github.com/Anuraagsingh132/Argumentor",
+    website: "https://github.com/Anuraagsingh132/Argumentor",
   },
   {
     name: "Mother’s Day Tribute",
@@ -291,6 +295,7 @@ const projects: TProject[] = [
     ],
     image: mother,
     sourceCodeLink: "https://github.com/Anuraagsingh132/Mothers-day-tribute",
+    website: "https://mothers-day-tribute-two.vercel.app/",
   },
   /*{
     name: "Trip Guide",
