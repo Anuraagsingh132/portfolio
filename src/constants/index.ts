@@ -222,7 +222,7 @@ const projects: TProject[] = [
       },
     ],
     image: streamverse,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Anuraagsingh132/streamverse",
   },
   {
     name: "Khushi Infra Webpage",
@@ -243,7 +243,53 @@ const projects: TProject[] = [
       },
     ],
     image: khushiinfra,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Anuraagsingh132/khushi-infra",
+  },
+  {
+    name: "ArguMentor App",
+    description:
+      "ArguMentor is an AI-powered Flutter app for practicing debates, offering real-time feedback, voice/text modes, and skill improvement.",
+    tags: [
+      {
+        name: "Dart",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "YAML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: argumentor,
+    sourceCodeLink: "https://github.com/Anuraagsingh132/portfolio",
+  },
+  {
+    name: "Mother’s Day Tribute",
+    description:
+      "A heartfelt digital tribute to mothers, featuring articles, images, and stories celebrating their love, strength, and timeless influence.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ShadCN UI",
+        color: "green-text-gradient",
+      },
+    ],
+    image: mother,
+    sourceCodeLink: "https://github.com/Anuraagsingh132/Mothers-day-tribute",
   },
   /*{
     name: "Trip Guide",
