@@ -31,6 +31,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import streamverse from "./streamverse.png";
 import khushiinfra from "./khushiinfra.png";
+import mother from "./mother.png";
+import argumentor from "./argumentor.png";
 
 
 export {
@@ -64,4 +66,6 @@ export {
   tripguide,
   streamverse,
   khushiinfra,
+  mother,
+  argumentor,
 };
