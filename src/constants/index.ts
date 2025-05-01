@@ -178,29 +178,30 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I didn’t expect a solo developer to deliver such polished results, but Anuraag exceeded every expectation. Our new website looks fantastic and reflects our brand perfectly.",
+    name: "Neha Verma",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Triveni Apparels",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "Working with Anuraag was a breath of fresh air. He genuinely cared about our goals and was always willing to go the extra mile. A rare find in today’s web development world.",
+    name: "Amit Khanna",
     designation: "COO",
-    company: "DEF Corp",
+    company: "Nimbus Tech",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "We saw a 50% boost in website traffic after Anuraag revamped our site. Clean code, fast load times, and a beautiful interface — we couldn't be happier.",
+    name: "Pooja Iyer",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "GreenRoot Solutions",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
+
 
 const projects: TProject[] = [
   {
