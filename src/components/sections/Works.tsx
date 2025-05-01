@@ -16,11 +16,12 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   tags,
   image,
   sourceCodeLink,
+  website,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <a
-        href={sourceCodeLink}
+        href={website}
         target="_blank"
         rel="noopener noreferrer"
         className="block"
