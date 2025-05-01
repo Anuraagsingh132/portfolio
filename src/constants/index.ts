@@ -225,7 +225,7 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/Anuraagsingh132/streamverse",
   },
   {
-    name: "Khushi Infra Webpage",
+    name: "Khushi Infra",
     description:
       "A web-based platform for Khushi Infrastructure Private Limited, showcasing their projects, services, and expertise with a modern design, seamless navigation, and optimized performance.",
     tags: [
